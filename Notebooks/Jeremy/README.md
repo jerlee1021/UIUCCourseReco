@@ -8,3 +8,32 @@ We are going to conduct some preliminary research this week and meet on Friday t
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 
+**2025-12-25**
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+**This is the kind of user story we are looking for:**
+User types:
+
+“I’m a CompE junior. Need one tech elective + one easy gen ed. No Fridays, and I prefer classes after 11”
+
+App responds:
+
+“I found 14 matching electives + 22 GenEds. Here are 4 schedules that fit.”
+
+Shows 4 schedule cards + right-side schedule grid preview
+
+Click schedule → conflicts none → “lock this class” → regenerate around it
+
+**Here are some helpful links to look at for gathering data:**
+
+UIUC Course Catalog API: https://courses.illinois.edu/cisdocs/api
+
+GitHub containing data used for UIUC Grade Disparity: https://github.com/wadefagen/datasets/blob/main/gpa/raw/sp2025.csv
+
+Rate My Professor API: https://pypi.org/project/RateMyProfessorAPI/
+
+We should start with data processing just from the course catalog. The GPA and Professor Ratings can be enrichments later on. Immediate next step: Start pulling some of the data to see how it lays out. Come up with necessary queries our schema will need to answer.
+
+
+
