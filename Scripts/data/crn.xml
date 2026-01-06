@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:section xmlns:ns2="http://rest.cis.illinois.edu" id="70644"
+    href="https://courses.illinois.edu/cisapp/explorer/schedule/2025/fall/CS/374/70644.xml">
+    <parents>
+        <calendarYear id="2025"
+            href="https://courses.illinois.edu/cisapp/explorer/schedule/2025.xml">2025</calendarYear>
+        <term id="120258" href="https://courses.illinois.edu/cisapp/explorer/schedule/2025/fall.xml">Fall
+            2025</term>
+        <subject id="CS"
+            href="https://courses.illinois.edu/cisapp/explorer/schedule/2025/fall/CS.xml">Computer
+            Science</subject>
+        <course id="374"
+            href="https://courses.illinois.edu/cisapp/explorer/schedule/2025/fall/CS/374.xml">Introduction
+            to Algorithms &amp; Models of Computation</course>
+    </parents>
+    <sectionNumber>ADB</sectionNumber>
+    <statusCode>A</statusCode>
+    <partOfTerm>1</partOfTerm>
+    <sectionStatusCode>A</sectionStatusCode>
+    <enrollmentStatus>UNKNOWN</enrollmentStatus>
+    <startDate>2025-08-25Z</startDate>
+    <endDate>2025-12-10Z</endDate>
+    <meetings>
+        <meeting id="0">
+            <type code="DIS">Discussion/Recitation</type>
+            <start>10:00 AM</start>
+            <end>10:50 AM</end>
+            <daysOfTheWeek>WF </daysOfTheWeek>
+            <roomNumber>1302</roomNumber>
+            <buildingName>Everitt Laboratory</buildingName>
+            <instructors>
+                <instructor lastName="Braught" firstName="K">Braught, K</instructor>
+                <instructor lastName="Stubenvoll" firstName="J">Stubenvoll, J</instructor>
+            </instructors>
+        </meeting>
+    </meetings>
+</ns2:section>

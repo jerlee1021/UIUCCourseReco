@@ -35,5 +35,26 @@ Rate My Professor API: https://pypi.org/project/RateMyProfessorAPI/
 
 We should start with data processing just from the course catalog. The GPA and Professor Ratings can be enrichments later on. Immediate next step: Start pulling some of the data to see how it lays out. Come up with necessary queries our schema will need to answer.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 
+**2026-1-06**
 
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Created a python script getCourses.py to test retrieving data from the public UIUC Course API.
+
+Instead of the original URL, use the explorer app. It doesn't require authentication and is a publicly available api: https://courses.illinois.edu/cisdocs/explorer
+
+Some useful URLs for schedule data:
+
+http://courses.illinois.edu/cisapp/explorer/schedule/:year 
+http://courses.illinois.edu/cisapp/explorer/schedule/:year/:semester -> 
+http://courses.illinois.edu/cisapp/explorer/schedule/:year/:semester/:subjectCode -> Courses offered for the subject that semester/year
+http://courses.illinois.edu/cisapp/explorer/schedule/:year/:semester/:subjectCode/:courseNumber -> Sections offered that year/semester for a specific course number
+http://courses.illinois.edu/cisapp/explorer/schedule/:year/:semester/:subjectCode/:courseNumber/:crn -> Metadata about the specific section CRN
+
+I created a folder called data to store some samples I retrieved from the api, as well as some notes on them
+
+Shift + Alt + F to format XML
+
+Ctrl + Alt + I to activate copilot

@@ -1,0 +1,49 @@
+From Semester:
+    - Term ID (e.g., "120258")
+    - Term Label (e.g., "Fall 2025")
+    - Calendar Year ID
+    - Subject IDs
+    - Subject Names
+
+From Subject:
+    - Subject ID (e.g., "CS")
+    - Subject Label/Name
+    - College Code (e.g., "KP")
+    - Department Code (e.g., "1434")
+    - Unit Name (e.g., "Siebel School of Computing and Data Science")
+    - Contact Name (Department Head)
+    - Contact Title
+    - Address Lines (Line 1 & 2)
+    - Phone Number
+    - Website URL
+    - College Department Description
+    - Course IDs
+    - Course Names
+    - Parent Information (Calendar Year, Term)
+
+From Course:
+    - Course ID (e.g., "CS 374")
+    - Course Label/Title
+    - Course Description
+    - Credit Hours
+    - Prerequisites/Course Section Information
+    - Section IDs (CRNs)
+    - Section Names (e.g., "ADB", "AL1")
+    - Parent Information (Calendar Year, Term, Subject)
+
+From Section (CRN):
+    - Section Number (e.g., "ADB")
+    - Status Codes (statusCode, sectionStatusCode)
+    - Enrollment Status
+    - Part of Term
+    - Start Date
+    - End Date
+    - Meeting Information:
+        - Meeting Type (e.g., "DIS" - Discussion/Recitation)
+        - Start Time
+        - End Time
+        - Days of the Week
+        - Room Number
+        - Building Name
+        - Instructors (First Name, Last Name)
+    - Parent Information (Calendar Year, Term, Subject, Course)
